@@ -4,8 +4,8 @@ variable "malutapisuhu_services" {
 
 variable "malutapisuhu_service_configs" {
   default = {
-    "ms-upp-svc"     = { container_port = 8080, cpu = 256, memory = 512, instance_count = 2 }
-    "ms-product-svc" = { container_port = 8080, cpu = 256, memory = 512, instance_count = 2 }
+    "ms-upp-svc"     = { container_port = 8080, cpu = 256, memory = 512, instance_count = 0 }
+    "ms-product-svc" = { container_port = 8080, cpu = 256, memory = 512, instance_count = 0 }
   }
 }
 
